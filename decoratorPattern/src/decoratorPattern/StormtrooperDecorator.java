@@ -2,8 +2,8 @@ package decoratorPattern;
 
 public abstract class StormtrooperDecorator extends Stormtrooper {
 	
-		public abstract String getDescription();
+		public abstract String getModelType();
 		public abstract String getWeaponType();
-		public abstract String mission();
+		public abstract String getMission();
 		
 }
