@@ -2,19 +2,19 @@ package decoratorPattern;
 
 public abstract class Stormtrooper {
 	
-	static String modelType = "Unknown Stormtrooper. ";
-	static String weaponType = "Weapon of choice: unknown. ";
-	static String mission = "Mission: Unknown. ";
+	static String modelType = "Default Stromtrooper ";
+	static String weaponType = "with standard weapons. ";
+	static String mission = "Mission: Elimiate rebel scum. ";
 	
-	public static String getModelType() {
+	public String getModelType() {
 		return modelType;
 	}
 	
-	public static String getWeaponType() {
+	public String getWeaponType() {
 		return weaponType;
 	}
 	
-	public static String getMission() {
+	public String getMission() {
 		return mission;
 	}
 

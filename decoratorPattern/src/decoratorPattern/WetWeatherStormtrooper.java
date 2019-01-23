@@ -2,9 +2,9 @@ package decoratorPattern;
 
 public class WetWeatherStormtrooper extends Stormtrooper {
 	
-	public WetWeatherStormtrooper() {
+	public WetWeatherStormtrooper(Stormtrooper stormtrooper1) {
 		modelType = "Deploying Wet-weather gear stormtrooper. ";
-		weaponType = " Weapon of choice: E-11 Blaster rifle. ";
+		weaponType = "with E-11 Blaster rifle. ";
 		mission = "Mission: Mimban campaign. ";
 	}
 }
